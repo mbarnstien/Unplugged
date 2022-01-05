@@ -87,6 +87,138 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+  /*--------------Base Header - Footer Styles --------------*/
+
+  header,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  header .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*------------------------Mobile Styles - Homepage --------------------------*/
+  
+  /*------Hero Area-----*/
+
+  .hero-area{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  /*------Aside------*/
+
+  aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  /*-----Features-----*/
+
+  .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  .features .features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  /*-----Reviews-----*/
+
+  .reviews {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+/*---------------------FAQ Page Styles----------------------------*/
+  .FAQ {
+
+  }
+
+  .FAQ h2 {
+
+  }
+  
+  .faq-content {
+
+  }
+  .faq-content h4 {
+
+  }
+  .faq-content p {
+
+  }
+
+  /*--------------------About Page Styles-------------------------*/
+  .mission {
+
+  }
+  .mission h2{
+
+  }
+
+  .mission-content {
+
+  }
+  .mission-content p {
+
+  }
+  
+  .map {
+
+  }
+
+  .contact-section {
+
+  }
+  .contact-section h2{
+
+  }
+
+  .contact-content {
+
+  }
+  .contact-content h4 {
+
+  }
+  .contact-content p {
+
+  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
