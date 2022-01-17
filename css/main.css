@@ -116,11 +116,21 @@ textarea {
   h3, h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125em;
+    font-weight: 500;
+    margin: 20px 0;
   }
 
   p {
     line-height: 1.285;
     font-size: 0.875em;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  figure {
+    margin: 0;
   }
 
   address  {
@@ -136,6 +146,7 @@ textarea {
 
   header,
   footer {
+    background-color: #202322;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,6 +161,13 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+  }
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
   }
   .header-divider {
     background: #3a3a3a;
@@ -212,6 +230,11 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/background-img.jpg');
+    background-size: cover;
+    min-height: 500px;
+    background-position: center;
+    background-color: #333;
   }
 
   .hero-area   h1 {
@@ -263,6 +286,11 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-image: url('../img/picnic-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #333;
   }
   .features h2 {
     margin-bottom: 60px;
